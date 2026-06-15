@@ -1,100 +1,102 @@
-{"command": "Set an alarm for 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}}
-{"command": "Create an alarm for tomorrow at 7 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "tomorrow"}}}
-{"command": "Schedule a wake-up alert for 5:30 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:30"}}}
-{"command": "Add an alarm for Friday at 7:30 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:30", "date_expression": "Friday"}}}
-{"command": "Configure an alarm for 4:45 AM", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}}
-{"command": "Start an alarm at noon", "json": {"intent": "set_alarm", "entities": {"time": "12:00"}}}
-{"command": "Set an alarm for midnight", "json": {"intent": "set_alarm", "entities": {"time": "00:00"}}}
-{"command": "Create a daily alarm for 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "daily"}}}
-{"command": "Wake me every weekday at 7 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "weekdays"}}}
-{"command": "Set an alarm every weekend at 8 AM", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekends"}}}
-{"command": "Schedule an alarm for next Monday at 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "next Monday"}}}
-{"command": "Create a recurring wake-up call for 5:45 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:45", "repeat": "daily"}}}
-{"command": "Add a morning alarm for 8 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "date_expression": "tomorrow"}}}
-{"command": "Set alarm for 10:30 tonight", "json": {"intent": "set_alarm", "entities": {"time": "22:30", "date_expression": "tonight"}}}
-{"command": "Create an alarm for 11 PM", "json": {"intent": "set_alarm", "entities": {"time": "23:00"}}}
-{"command": "Can you wake me up at 6 tomorrow?", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}}
-{"command": "I need to be awake by 7 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:00"}}}
-{"command": "Make sure I get up before 8 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "date_expression": "tomorrow"}}}
-{"command": "Wake me at half past six", "json": {"intent": "set_alarm", "entities": {"time": "06:30"}}}
-{"command": "Wake me at quarter to seven", "json": {"intent": "set_alarm", "entities": {"time": "06:45"}}}
-{"command": "I'd like a wake-up call at 5:15", "json": {"intent": "set_alarm", "entities": {"time": "05:15"}}}
-{"command": "Could you ring at six in the morning?", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}}
-{"command": "I want to be up by 5 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}}
-{"command": "Get me out of bed at 6:20", "json": {"intent": "set_alarm", "entities": {"time": "06:20"}}}
-{"command": "I'd better be awake by 9", "json": {"intent": "set_alarm", "entities": {"time": "09:00"}}}
-{"command": "Can I get a wake-up call at 4:50?", "json": {"intent": "set_alarm", "entities": {"time": "04:50"}}}
-{"command": "Wake me tomorrow at seven sharp", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "tomorrow"}}}
-{"command": "I should be awake before sunrise, set 5 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}}
-{"command": "Make sure I'm not sleeping at 8 AM", "json": {"intent": "set_alarm", "entities": {"time": "08:00"}}}
-{"command": "Help me get up at 4:40 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "04:40", "date_expression": "tomorrow"}}}
-{"command": "My flight leaves at 8 AM tomorrow, wake me up at 5 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}}
-{"command": "I have an exam tomorrow, set an alarm for 4:30", "json": {"intent": "set_alarm", "entities": {"time": "04:30", "date_expression": "tomorrow"}}}
-{"command": "Don't let me miss my train, wake me at 4:45", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}}
-{"command": "I need to catch the first bus on Monday, get me up at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "Monday"}}}
-{"command": "Wake me before my interview tomorrow at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}}
-{"command": "My doctor appointment is at 8, alarm me for 6:15", "json": {"intent": "set_alarm", "entities": {"time": "06:15"}}}
-{"command": "Need to reach college by 7:30 tomorrow, wake me at 5:45", "json": {"intent": "set_alarm", "entities": {"time": "05:45", "date_expression": "tomorrow"}}}
-{"command": "Presentation tomorrow morning, alarm at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}}
-{"command": "Don't let me miss cricket practice at 6, wake me at 4:30", "json": {"intent": "set_alarm", "entities": {"time": "04:30"}}}
-{"command": "I need to submit my assignment before class, wake me at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}}
-{"command": "Morning shift tomorrow, set an alarm for quarter to five", "json": {"intent": "set_alarm", "entities": {"time": "04:45", "date_expression": "tomorrow"}}}
-{"command": "Get me up before the sunrise trek at 4", "json": {"intent": "set_alarm", "entities": {"time": "04:00"}}}
-{"command": "Need to attend a webinar at 6 AM, alarm me at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}}
-{"command": "My cab arrives at 5:30 tomorrow, wake me up at 4", "json": {"intent": "set_alarm", "entities": {"time": "04:00", "date_expression": "tomorrow"}}}
-{"command": "Open the shop early tomorrow, alarm for 4:45", "json": {"intent": "set_alarm", "entities": {"time": "04:45", "date_expression": "tomorrow"}}}
-{"command": "Wake me before my online exam at 8, say 5:30", "json": {"intent": "set_alarm", "entities": {"time": "05:30"}}}
-{"command": "Need to leave for the airport by 4, wake me at 2:30", "json": {"intent": "set_alarm", "entities": {"time": "02:30"}}}
-{"command": "Don't let me sleep through my lecture, alarm for 6:45", "json": {"intent": "set_alarm", "entities": {"time": "06:45"}}}
-{"command": "The match starts at 7, wake me by 5:50", "json": {"intent": "set_alarm", "entities": {"time": "05:50"}}}
-{"command": "Photography trip at dawn, wake me at 4:20", "json": {"intent": "set_alarm", "entities": {"time": "04:20"}}}
-{"command": "Wake me every working day at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekdays"}}}
-{"command": "Set an alarm every Sunday at 8", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekly"}}}
-{"command": "Wake me every alternate day at 5:30", "json": {"intent": "set_alarm", "entities": {"time": "05:30", "repeat": "alternate_days"}}}
-{"command": "Alarm me on weekends at 9", "json": {"intent": "set_alarm", "entities": {"time": "09:00", "repeat": "weekends"}}}
-{"command": "Set a daily wake-up call for 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "repeat": "daily"}}}
-{"command": "Every first Monday of the month, wake me at 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "monthly_first_monday"}}}
-{"command": "Set an alarm every second Saturday at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "monthly_second_saturday"}}}
-{"command": "Wake me up each Friday at 5:45", "json": {"intent": "set_alarm", "entities": {"time": "05:45", "repeat": "weekly"}}}
-{"command": "Create a weekday alarm for 6:15", "json": {"intent": "set_alarm", "entities": {"time": "06:15", "repeat": "weekdays"}}}
-{"command": "Alarm every day at quarter past six", "json": {"intent": "set_alarm", "entities": {"time": "06:15", "repeat": "daily"}}}
-{"command": "Wake me every Monday and Wednesday at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "repeat": "mon_wed"}}}
-{"command": "Set a recurring alarm at 4:50 AM daily", "json": {"intent": "set_alarm", "entities": {"time": "04:50", "repeat": "daily"}}}
-{"command": "Every month on the first day, alarm me at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "monthly"}}}
-{"command": "Wake me on school days at 6:10", "json": {"intent": "set_alarm", "entities": {"time": "06:10", "repeat": "weekdays"}}}
-{"command": "Set a permanent morning alarm for 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "daily"}}}
-{"command": "Wake me up in two hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_2_hours"}}}
-{"command": "Set an alarm 45 minutes from now", "json": {"intent": "set_alarm", "entities": {"time": "relative_45_minutes"}}}
-{"command": "Ring in one hour", "json": {"intent": "set_alarm", "entities": {"time": "relative_1_hour"}}}
-{"command": "Wake me in 90 minutes", "json": {"intent": "set_alarm", "entities": {"time": "relative_90_minutes"}}}
-{"command": "Alarm after 30 minutes", "json": {"intent": "set_alarm", "entities": {"time": "relative_30_minutes"}}}
-{"command": "Wake me up in three hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_3_hours"}}}
-{"command": "Set an alarm for 20 minutes later", "json": {"intent": "set_alarm", "entities": {"time": "relative_20_minutes"}}}
-{"command": "Ping me in four hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_4_hours"}}}
-{"command": "Wake me after two and a half hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_150_minutes"}}}
-{"command": "Alarm me in 10 minutes", "json": {"intent": "set_alarm", "entities": {"time": "relative_10_minutes"}}}
-{"command": "Wake me up by six yaar", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}}
-{"command": "Need to get up at five boss", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}}
-{"command": "Get me up at 6 tomorrow da", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}}
-{"command": "Alarm me at 5:30 bhai", "json": {"intent": "set_alarm", "entities": {"time": "05:30"}}}
-{"command": "Wake me six sharp yaar tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}}
-{"command": "Need a wake-up call at 4:45 macha", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}}
-{"command": "Get me out of bed by 7 bossman", "json": {"intent": "set_alarm", "entities": {"time": "07:00"}}}
-{"command": "Set a morning alarm for 5 re", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}}
-{"command": "Wake me at half six tomorrow yaar", "json": {"intent": "set_alarm", "entities": {"time": "06:30", "date_expression": "tomorrow"}}}
-{"command": "Need to be up by 8 dost", "json": {"intent": "set_alarm", "entities": {"time": "08:00"}}}
-{"command": "alarm for sex tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}}
-{"command": "wake me tree thirty", "json": {"intent": "set_alarm", "entities": {"time": "03:30"}}}
-{"command": "alarm at ate fifteen", "json": {"intent": "set_alarm", "entities": {"time": "08:15"}}}
-{"command": "six teen alarm tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "06:10", "date_expression": "tomorrow"}}}
-{"command": "wake me foe forty five", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}}
-{"command": "alarm tomorrow won five", "json": {"intent": "set_alarm", "entities": {"time": "01:05", "date_expression": "tomorrow"}}}
-{"command": "set alam six o clock", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}}
-{"command": "wakeup call ate em", "json": {"intent": "set_alarm", "entities": {"time": "08:00"}}}
-{"command": "alarm me at sivin thirty", "json": {"intent": "set_alarm", "entities": {"time": "07:30"}}}
-{"command": "wake me at for tea", "json": {"intent": "set_alarm", "entities": {"time": "04:30"}}}
-{"command": "Set an alarm for February 29th at 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "February 29th"}}}
-{"command": "Wake me up next leap day at 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "next leap day"}}}
-{"command": "Alarm me on New Year's Day at 4", "json": {"intent": "set_alarm", "entities": {"time": "04:00", "date_expression": "New Year's Day"}}}
-{"command": "Wake me the day after tomorrow at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "day after tomorrow"}}}
-{"command": "Set an alarm next weekend at 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "next weekend"}}}
+[
+    {"command": "Set an alarm for 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}},
+    {"command": "Create an alarm for tomorrow at 7 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "tomorrow"}}},
+    {"command": "Schedule a wake-up alert for 5:30 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:30"}}},
+    {"command": "Add an alarm for Friday at 7:30 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:30", "date_expression": "Friday"}}},
+    {"command": "Configure an alarm for 4:45 AM", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}},
+    {"command": "Start an alarm at noon", "json": {"intent": "set_alarm", "entities": {"time": "12:00"}}},
+    {"command": "Set an alarm for midnight", "json": {"intent": "set_alarm", "entities": {"time": "00:00"}}},
+    {"command": "Create a daily alarm for 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "daily"}}},
+    {"command": "Wake me every weekday at 7 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "weekdays"}}},
+    {"command": "Set an alarm every weekend at 8 AM", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekends"}}},
+    {"command": "Schedule an alarm for next Monday at 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "next Monday"}}},
+    {"command": "Create a recurring wake-up call for 5:45 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:45", "repeat": "daily"}}},
+    {"command": "Add a morning alarm for 8 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "date_expression": "tomorrow"}}},
+    {"command": "Set alarm for 10:30 tonight", "json": {"intent": "set_alarm", "entities": {"time": "22:30", "date_expression": "tonight"}}},
+    {"command": "Create an alarm for 11 PM", "json": {"intent": "set_alarm", "entities": {"time": "23:00"}}},
+    {"command": "Can you wake me up at 6 tomorrow?", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}},
+    {"command": "I need to be awake by 7 AM", "json": {"intent": "set_alarm", "entities": {"time": "07:00"}}},
+    {"command": "Make sure I get up before 8 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "date_expression": "tomorrow"}}},
+    {"command": "Wake me at half past six", "json": {"intent": "set_alarm", "entities": {"time": "06:30"}}},
+    {"command": "Wake me at quarter to seven", "json": {"intent": "set_alarm", "entities": {"time": "06:45"}}},
+    {"command": "I'd like a wake-up call at 5:15", "json": {"intent": "set_alarm", "entities": {"time": "05:15"}}},
+    {"command": "Could you ring at six in the morning?", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}},
+    {"command": "I want to be up by 5 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}},
+    {"command": "Get me out of bed at 6:20", "json": {"intent": "set_alarm", "entities": {"time": "06:20"}}},
+    {"command": "I'd better be awake by 9", "json": {"intent": "set_alarm", "entities": {"time": "09:00"}}},
+    {"command": "Can I get a wake-up call at 4:50?", "json": {"intent": "set_alarm", "entities": {"time": "04:50"}}},
+    {"command": "Wake me tomorrow at seven sharp", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "tomorrow"}}},
+    {"command": "I should be awake before sunrise, set 5 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}},
+    {"command": "Make sure I'm not sleeping at 8 AM", "json": {"intent": "set_alarm", "entities": {"time": "08:00"}}},
+    {"command": "Help me get up at 4:40 tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "04:40", "date_expression": "tomorrow"}}},
+    {"command": "My flight leaves at 8 AM tomorrow, wake me up at 5 AM", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}},
+    {"command": "I have an exam tomorrow, set an alarm for 4:30", "json": {"intent": "set_alarm", "entities": {"time": "04:30", "date_expression": "tomorrow"}}},
+    {"command": "Don't let me miss my train, wake me at 4:45", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}},
+    {"command": "I need to catch the first bus on Monday, get me up at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "Monday"}}},
+    {"command": "Wake me before my interview tomorrow at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}},
+    {"command": "My doctor appointment is at 8, alarm me for 6:15", "json": {"intent": "set_alarm", "entities": {"time": "06:15"}}},
+    {"command": "Need to reach college by 7:30 tomorrow, wake me at 5:45", "json": {"intent": "set_alarm", "entities": {"time": "05:45", "date_expression": "tomorrow"}}},
+    {"command": "Presentation tomorrow morning, alarm at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}},
+    {"command": "Don't let me miss cricket practice at 6, wake me at 4:30", "json": {"intent": "set_alarm", "entities": {"time": "04:30"}}},
+    {"command": "I need to submit my assignment before class, wake me at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}},
+    {"command": "Morning shift tomorrow, set an alarm for quarter to five", "json": {"intent": "set_alarm", "entities": {"time": "04:45", "date_expression": "tomorrow"}}},
+    {"command": "Get me up before the sunrise trek at 4", "json": {"intent": "set_alarm", "entities": {"time": "04:00"}}},
+    {"command": "Need to attend a webinar at 6 AM, alarm me at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}},
+    {"command": "My cab arrives at 5:30 tomorrow, wake me up at 4", "json": {"intent": "set_alarm", "entities": {"time": "04:00", "date_expression": "tomorrow"}}},
+    {"command": "Open the shop early tomorrow, alarm for 4:45", "json": {"intent": "set_alarm", "entities": {"time": "04:45", "date_expression": "tomorrow"}}},
+    {"command": "Wake me before my online exam at 8, say 5:30", "json": {"intent": "set_alarm", "entities": {"time": "05:30"}}},
+    {"command": "Need to leave for the airport by 4, wake me at 2:30", "json": {"intent": "set_alarm", "entities": {"time": "02:30"}}},
+    {"command": "Don't let me sleep through my lecture, alarm for 6:45", "json": {"intent": "set_alarm", "entities": {"time": "06:45"}}},
+    {"command": "The match starts at 7, wake me by 5:50", "json": {"intent": "set_alarm", "entities": {"time": "05:50"}}},
+    {"command": "Photography trip at dawn, wake me at 4:20", "json": {"intent": "set_alarm", "entities": {"time": "04:20"}}},
+    {"command": "Wake me every working day at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekda,ys"}}},
+    {"command": "Set an alarm every Sunday at 8", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekly"}}},
+    {"command": "Wake me every alternate day at 5:30", "json": {"intent": "set_alarm", "entities": {"time": "05:30", "repeat": "alternate_days"}}},
+    {"command": "Alarm me on weekends at 9", "json": {"intent": "set_alarm", "entities": {"time": "09:00", "repeat": "weekends"}}},
+    {"command": "Set a daily wake-up call for 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "repeat": "daily"}}},
+    {"command": "Every first Monday of the month, wake me at 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "monthly_first_monday"}}},
+    {"command": "Set an alarm every second Saturday at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "monthly_second_saturday"}}},
+    {"command": "Wake me up each Friday at 5:45", "json": {"intent": "set_alarm", "entities": {"time": "05:45", "repeat": "weekly"}}},
+    {"command": "Create a weekday alarm for 6:15", "json": {"intent": "set_alarm", "entities": {"time": "06:15", "repeat": "weekdays"}}},
+    {"command": "Alarm every day at quarter past six", "json": {"intent": "set_alarm", "entities": {"time": "06:15", "repeat": "daily"}}},
+    {"command": "Wake me every Monday and Wednesday at 5", "json": {"intent": "set_alarm", "entities": {"time": "05:00", "repeat": "mon_wed"}}},
+    {"command": "Set a recurring alarm at 4:50 AM daily", "json": {"intent": "set_alarm", "entities": {"time": "04:50", "repeat": "daily"}}},
+    {"command": "Every month on the first day, alarm me at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "monthly"}}},
+    {"command": "Wake me on school days at 6:10", "json": {"intent": "set_alarm", "entities": {"time": "06:10", "repeat": "weekdays"}}},
+    {"command": "Set a permanent morning alarm for 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "daily"}}},
+    {"command": "Wake me up in two hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_2_hours"}}},
+    {"command": "Set an alarm 45 minutes from now", "json": {"intent": "set_alarm", "entities": {"time": "relative_45_minutes"}}},
+    {"command": "Ring in one hour", "json": {"intent": "set_alarm", "entities": {"time": "relative_1_hour"}}},
+    {"command": "Wake me in 90 minutes", "json": {"intent": "set_alarm", "entities": {"time": "relative_90_minutes"}}},
+    {"command": "Alarm after 30 minutes", "json": {"intent": "set_alarm", "entities": {"time": "relative_30_minutes"}}},
+    {"command": "Wake me up in three hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_3_hours"}}},
+    {"command": "Set an alarm for 20 minutes later", "json": {"intent": "set_alarm", "entities": {"time": "relative_20_minutes"}}},
+    {"command": "Ping me in four hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_4_hours"}}},
+    {"command": "Wake me after two and a half hours", "json": {"intent": "set_alarm", "entities": {"time": "relative_150_minutes"}}},
+    {"command": "Alarm me in 10 minutes", "json": {"intent": "set_alarm", "entities": {"time": "relative_10_minutes"}}},
+    {"command": "Wake me up by six yaar", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}},
+    {"command": "Need to get up at five boss", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}},
+    {"command": "Get me up at 6 tomorrow da", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}},
+    {"command": "Alarm me at 5:30 bhai", "json": {"intent": "set_alarm", "entities": {"time": "05:30"}}},
+    {"command": "Wake me six sharp yaar tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}},
+    {"command": "Need a wake-up call at 4:45 macha", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}},
+    {"command": "Get me out of bed by 7 bossman", "json": {"intent": "set_alarm", "entities": {"time": "07:00"}}},
+    {"command": "Set a morning alarm for 5 re", "json": {"intent": "set_alarm", "entities": {"time": "05:00"}}},
+    {"command": "Wake me at half six tomorrow yaar", "json": {"intent": "set_alarm", "entities": {"time": "06:30", "date_expression": "tomorrow"}}},
+    {"command": "Need to be up by 8 dost", "json": {"intent": "set_alarm", "entities": {"time": "08:00"}}},
+    {"command": "alarm for sex tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}},
+    {"command": "wake me tree thirty", "json": {"intent": "set_alarm", "entities": {"time": "03:30"}}},
+    {"command": "alarm at ate fifteen", "json": {"intent": "set_alarm", "entities": {"time": "08:15"}}},
+    {"command": "six teen alarm tomorrow", "json": {"intent": "set_alarm", "entities": {"time": "06:10", "date_expression": "tomorrow"}}},
+    {"command": "wake me foe forty five", "json": {"intent": "set_alarm", "entities": {"time": "04:45"}}},
+    {"command": "alarm tomorrow won five", "json": {"intent": "set_alarm", "entities": {"time": "01:05", "date_expression": "tomorrow"}}},
+    {"command": "set alam six o clock", "json": {"intent": "set_alarm", "entities": {"time": "06:00"}}},
+    {"command": "wakeup call ate em", "json": {"intent": "set_alarm", "entities": {"time": "08:00"}}},
+    {"command": "alarm me at sivin thirty", "json": {"intent": "set_alarm", "entities": {"time": "07:30"}}},
+    {"command": "wake me at for tea", "json": {"intent": "set_alarm", "entities": {"time": "04:30"}}},
+    {"command": "Set an alarm for February 29th at 6 AM", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "February 29th"}}},
+    {"command": "Wake me up next leap day at 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "next leap day"}}},
+    {"command": "Alarm me on New Year's Day at 4", "json": {"intent": "set_alarm", "entities": {"time": "04:00", "date_expression": "New Year's Day"}}},
+    {"command": "Wake me the day after tomorrow at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "day after tomorrow"}}},
+    {"command": "Set an alarm next weekend at 7", "json": {"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "next weekend"}}}
+]
