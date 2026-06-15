@@ -1,0 +1,98 @@
+[
+  {
+    "command": "Wake me at half six tomorrow yaar",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "06:30",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "Get me up at 6 tomorrow da",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "06:00",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "Configure an alarm for 4:45 AM",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "04:45"
+      }
+    }
+  },
+  {
+    "command": "Alarm me on weekends at 9",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "09:00",
+        "repeat": "weekends"
+      }
+    }
+  },
+  {
+    "command": "Schedule an alarm for next Monday at 6 AM",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "06:00",
+        "date_expression": "next Monday"
+      }
+    }
+  },
+  {
+    "command": "I need to submit my assignment before class, wake me at 6",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "06:00"
+      }
+    }
+  },
+  {
+    "command": "My flight leaves at 8 AM tomorrow, wake me up at 5 AM",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "05:00",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "Wake me before my online exam at 8, say 5:30",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "05:30"
+      }
+    }
+  },
+  {
+    "command": "Add a morning alarm for 8 tomorrow",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "08:00",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "Need to get up at five boss",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "05:00"
+      }
+    }
+  }
+]

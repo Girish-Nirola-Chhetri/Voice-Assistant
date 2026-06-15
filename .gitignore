@@ -1,4 +1,4 @@
-data/processed/
+
 tokenizer/vocab.json
 tokenizer/merges.txt
 
