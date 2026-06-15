@@ -49,7 +49,7 @@
     {"command": "Don't let me sleep through my lecture, alarm for 6:45", "json": {"intent": "set_alarm", "entities": {"time": "06:45"}}},
     {"command": "The match starts at 7, wake me by 5:50", "json": {"intent": "set_alarm", "entities": {"time": "05:50"}}},
     {"command": "Photography trip at dawn, wake me at 4:20", "json": {"intent": "set_alarm", "entities": {"time": "04:20"}}},
-    {"command": "Wake me every working day at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekda,ys"}}},
+    {"command": "Wake me every working day at 6", "json": {"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekdays"}}},
     {"command": "Set an alarm every Sunday at 8", "json": {"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekly"}}},
     {"command": "Wake me every alternate day at 5:30", "json": {"intent": "set_alarm", "entities": {"time": "05:30", "repeat": "alternate_days"}}},
     {"command": "Alarm me on weekends at 9", "json": {"intent": "set_alarm", "entities": {"time": "09:00", "repeat": "weekends"}}},

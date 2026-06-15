@@ -1,6 +1,6 @@
 {
   "intent": "set_alarm",
-  "entities": {
+   "entities": {
     "time": "HH:MM (24hr format) — include only if mentioned",
     "date": "today | tomorrow | YYYY-MM-DD — include only if mentioned",
     "repeat": "none | daily | weekly — include only if mentioned"

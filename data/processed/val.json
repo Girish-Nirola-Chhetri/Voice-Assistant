@@ -1,0 +1,97 @@
+[
+  {
+    "command": "I need to catch the first bus on Monday, get me up at 5",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "05:00",
+        "date_expression": "Monday"
+      }
+    }
+  },
+  {
+    "command": "Wake me up in three hours",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "relative_3_hours"
+      }
+    }
+  },
+  {
+    "command": "Set an alarm for 6 AM",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "06:00"
+      }
+    }
+  },
+  {
+    "command": "I have an exam tomorrow, set an alarm for 4:30",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "04:30",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "Open the shop early tomorrow, alarm for 4:45",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "04:45",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "Wake me after two and a half hours",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "relative_150_minutes"
+      }
+    }
+  },
+  {
+    "command": "Need a wake-up call at 4:45 macha",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "04:45"
+      }
+    }
+  },
+  {
+    "command": "Wake me at half past six",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "06:30"
+      }
+    }
+  },
+  {
+    "command": "alarm tomorrow won five",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "01:05",
+        "date_expression": "tomorrow"
+      }
+    }
+  },
+  {
+    "command": "I want to be up by 5 tomorrow",
+    "json": {
+      "intent": "set_alarm",
+      "entities": {
+        "time": "05:00",
+        "date_expression": "tomorrow"
+      }
+    }
+  }
+]
