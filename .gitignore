@@ -1,15 +1,5 @@
-data/processed/
-tokenizer/vocab.json
-tokenizer/merges.txt
 
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
 venv/
 env/
 .env
-
-.DS_Store
-Thumbs.db

@@ -1,0 +1,300 @@
+Set an alarm for 6 AM
+{"intent": "set_alarm", "entities": {"time": "06:00"}}
+
+Create an alarm for tomorrow at 7 AM
+{"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "tomorrow"}}
+
+Schedule a wake-up alert for 5:30 AM
+{"intent": "set_alarm", "entities": {"time": "05:30"}}
+
+Add an alarm for Friday at 7:30 AM
+{"intent": "set_alarm", "entities": {"time": "07:30", "date_expression": "Friday"}}
+
+Configure an alarm for 4:45 AM
+{"intent": "set_alarm", "entities": {"time": "04:45"}}
+
+Start an alarm at noon
+{"intent": "set_alarm", "entities": {"time": "12:00"}}
+
+Set an alarm for midnight
+{"intent": "set_alarm", "entities": {"time": "00:00"}}
+
+Create a daily alarm for 6 AM
+{"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "daily"}}
+
+Wake me every weekday at 7 AM
+{"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "weekdays"}}
+
+Set an alarm every weekend at 8 AM
+{"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekends"}}
+
+Schedule an alarm for next Monday at 6 AM
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "next Monday"}}
+
+Create a recurring wake-up call for 5:45 AM
+{"intent": "set_alarm", "entities": {"time": "05:45", "repeat": "daily"}}
+
+Add a morning alarm for 8 tomorrow
+{"intent": "set_alarm", "entities": {"time": "08:00", "date_expression": "tomorrow"}}
+
+Set alarm for 10:30 tonight
+{"intent": "set_alarm", "entities": {"time": "22:30", "date_expression": "tonight"}}
+
+Create an alarm for 11 PM
+{"intent": "set_alarm", "entities": {"time": "23:00"}}
+
+Can you wake me up at 6 tomorrow?
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}
+
+I need to be awake by 7 AM
+{"intent": "set_alarm", "entities": {"time": "07:00"}}
+
+Make sure I get up before 8 tomorrow
+{"intent": "set_alarm", "entities": {"time": "08:00", "date_expression": "tomorrow"}}
+
+Wake me at half past six
+{"intent": "set_alarm", "entities": {"time": "06:30"}}
+
+Wake me at quarter to seven
+{"intent": "set_alarm", "entities": {"time": "06:45"}}
+
+I'd like a wake-up call at 5:15
+{"intent": "set_alarm", "entities": {"time": "05:15"}}
+
+Could you ring at six in the morning?
+{"intent": "set_alarm", "entities": {"time": "06:00"}}
+
+I want to be up by 5 tomorrow
+{"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}
+
+Get me out of bed at 6:20
+{"intent": "set_alarm", "entities": {"time": "06:20"}}
+
+I'd better be awake by 9
+{"intent": "set_alarm", "entities": {"time": "09:00"}}
+
+Can I get a wake-up call at 4:50?
+{"intent": "set_alarm", "entities": {"time": "04:50"}}
+
+Wake me tomorrow at seven sharp
+{"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "tomorrow"}}
+
+I should be awake before sunrise, set 5 AM
+{"intent": "set_alarm", "entities": {"time": "05:00"}}
+
+Make sure I'm not sleeping at 8 AM
+{"intent": "set_alarm", "entities": {"time": "08:00"}}
+
+Help me get up at 4:40 tomorrow
+{"intent": "set_alarm", "entities": {"time": "04:40", "date_expression": "tomorrow"}}
+
+My flight leaves at 8 AM tomorrow, wake me up at 5 AM
+{"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}
+
+I have an exam tomorrow, set an alarm for 4:30
+{"intent": "set_alarm", "entities": {"time": "04:30", "date_expression": "tomorrow"}}
+
+Don't let me miss my train, wake me at 4:45
+{"intent": "set_alarm", "entities": {"time": "04:45"}}
+
+I need to catch the first bus on Monday, get me up at 5
+{"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "Monday"}}
+
+Wake me before my interview tomorrow at 6
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}
+
+My doctor appointment is at 8, alarm me for 6:15
+{"intent": "set_alarm", "entities": {"time": "06:15"}}
+
+Need to reach college by 7:30 tomorrow, wake me at 5:45
+{"intent": "set_alarm", "entities": {"time": "05:45", "date_expression": "tomorrow"}}
+
+Presentation tomorrow morning, alarm at 5
+{"intent": "set_alarm", "entities": {"time": "05:00", "date_expression": "tomorrow"}}
+
+Don't let me miss cricket practice at 6, wake me at 4:30
+{"intent": "set_alarm", "entities": {"time": "04:30"}}
+
+I need to submit my assignment before class, wake me at 6
+{"intent": "set_alarm", "entities": {"time": "06:00"}}
+
+Morning shift tomorrow, set an alarm for quarter to five
+{"intent": "set_alarm", "entities": {"time": "04:45", "date_expression": "tomorrow"}}
+
+Get me up before the sunrise trek at 4
+{"intent": "set_alarm", "entities": {"time": "04:00"}}
+
+Need to attend a webinar at 6 AM, alarm me at 5
+{"intent": "set_alarm", "entities": {"time": "05:00"}}
+
+My cab arrives at 5:30 tomorrow, wake me up at 4
+{"intent": "set_alarm", "entities": {"time": "04:00", "date_expression": "tomorrow"}}
+
+Open the shop early tomorrow, alarm for 4:45
+{"intent": "set_alarm", "entities": {"time": "04:45", "date_expression": "tomorrow"}}
+
+Wake me before my online exam at 8, say 5:30
+{"intent": "set_alarm", "entities": {"time": "05:30"}}
+
+Need to leave for the airport by 4, wake me at 2:30
+{"intent": "set_alarm", "entities": {"time": "02:30"}}
+
+Don't let me sleep through my lecture, alarm for 6:45
+{"intent": "set_alarm", "entities": {"time": "06:45"}}
+
+The match starts at 7, wake me by 5:50
+{"intent": "set_alarm", "entities": {"time": "05:50"}}
+
+Photography trip at dawn, wake me at 4:20
+{"intent": "set_alarm", "entities": {"time": "04:20"}}
+
+Wake me every working day at 6
+{"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekda,ys"}}
+
+Set an alarm every Sunday at 8
+{"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekly"}}
+
+Wake me every alternate day at 5:30
+{"intent": "set_alarm", "entities": {"time": "05:30", "repeat": "alternate_days"}}
+
+Alarm me on weekends at 9
+{"intent": "set_alarm", "entities": {"time": "09:00", "repeat": "weekends"}}
+
+Set a daily wake-up call for 5
+{"intent": "set_alarm", "entities": {"time": "05:00", "repeat": "daily"}}
+
+Every first Monday of the month, wake me at 7
+{"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "monthly_first_monday"}}
+
+Set an alarm every second Saturday at 6
+{"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "monthly_second_saturday"}}
+
+Wake me up each Friday at 5:45
+{"intent": "set_alarm", "entities": {"time": "05:45", "repeat": "weekly"}}
+
+Create a weekday alarm for 6:15
+{"intent": "set_alarm", "entities": {"time": "06:15", "repeat": "weekdays"}}
+
+Alarm every day at quarter past six
+{"intent": "set_alarm", "entities": {"time": "06:15", "repeat": "daily"}}
+
+Wake me every Monday and Wednesday at 5
+{"intent": "set_alarm", "entities": {"time": "05:00", "repeat": "mon_wed"}}
+
+Set a recurring alarm at 4:50 AM daily
+{"intent": "set_alarm", "entities": {"time": "04:50", "repeat": "daily"}}
+
+Every month on the first day, alarm me at 6
+{"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "monthly"}}
+
+Wake me on school days at 6:10
+{"intent": "set_alarm", "entities": {"time": "06:10", "repeat": "weekdays"}}
+
+Set a permanent morning alarm for 7
+{"intent": "set_alarm", "entities": {"time": "07:00", "repeat": "daily"}}
+
+Wake me up in two hours
+{"intent": "set_alarm", "entities": {"time": "relative_2_hours"}}
+
+Set an alarm 45 minutes from now
+{"intent": "set_alarm", "entities": {"time": "relative_45_minutes"}}
+
+Ring in one hour
+{"intent": "set_alarm", "entities": {"time": "relative_1_hour"}}
+
+Wake me in 90 minutes
+{"intent": "set_alarm", "entities": {"time": "relative_90_minutes"}}
+
+Alarm after 30 minutes
+{"intent": "set_alarm", "entities": {"time": "relative_30_minutes"}}
+
+Wake me up in three hours
+{"intent": "set_alarm", "entities": {"time": "relative_3_hours"}}
+
+Set an alarm for 20 minutes later
+{"intent": "set_alarm", "entities": {"time": "relative_20_minutes"}}
+
+Ping me in four hours
+{"intent": "set_alarm", "entities": {"time": "relative_4_hours"}}
+
+Wake me after two and a half hours
+{"intent": "set_alarm", "entities": {"time": "relative_150_minutes"}}
+
+Alarm me in 10 minutes
+{"intent": "set_alarm", "entities": {"time": "relative_10_minutes"}}
+
+Wake me up by six yaar
+{"intent": "set_alarm", "entities": {"time": "06:00"}}
+
+Need to get up at five boss
+{"intent": "set_alarm", "entities": {"time": "05:00"}}
+
+Get me up at 6 tomorrow da
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}
+
+Alarm me at 5:30 bhai
+{"intent": "set_alarm", "entities": {"time": "05:30"}}
+
+Wake me six sharp yaar tomorrow
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}
+
+Need a wake-up call at 4:45 macha
+{"intent": "set_alarm", "entities": {"time": "04:45"}}
+
+Get me out of bed by 7 bossman
+{"intent": "set_alarm", "entities": {"time": "07:00"}}
+
+Set a morning alarm for 5 re
+{"intent": "set_alarm", "entities": {"time": "05:00"}}
+
+Wake me at half six tomorrow yaar
+{"intent": "set_alarm", "entities": {"time": "06:30", "date_expression": "tomorrow"}}
+
+Need to be up by 8 dost
+{"intent": "set_alarm", "entities": {"time": "08:00"}}
+
+alarm for sex tomorrow
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "tomorrow"}}
+
+wake me tree thirty
+{"intent": "set_alarm", "entities": {"time": "03:30"}}
+
+alarm at ate fifteen
+{"intent": "set_alarm", "entities": {"time": "08:15"}}
+
+six teen alarm tomorrow
+{"intent": "set_alarm", "entities": {"time": "06:10", "date_expression": "tomorrow"}}
+
+wake me foe forty five
+{"intent": "set_alarm", "entities": {"time": "04:45"}}
+
+alarm tomorrow won five
+{"intent": "set_alarm", "entities": {"time": "01:05", "date_expression": "tomorrow"}}
+
+set alam six o clock
+{"intent": "set_alarm", "entities": {"time": "06:00"}}
+
+wakeup call ate em
+{"intent": "set_alarm", "entities": {"time": "08:00"}}
+
+alarm me at sivin thirty
+{"intent": "set_alarm", "entities": {"time": "07:30"}}
+
+wake me at for tea
+{"intent": "set_alarm", "entities": {"time": "04:30"}}
+
+Set an alarm for February 29th at 6 AM
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "February 29th"}}
+
+Wake me up next leap day at 7
+{"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "next leap day"}}
+
+Alarm me on New Year's Day at 4
+{"intent": "set_alarm", "entities": {"time": "04:00", "date_expression": "New Year's Day"}}
+
+Wake me the day after tomorrow at 6
+{"intent": "set_alarm", "entities": {"time": "06:00", "date_expression": "day after tomorrow"}}
+
+Set an alarm next weekend at 7
+{"intent": "set_alarm", "entities": {"time": "07:00", "date_expression": "next weekend"}}
+

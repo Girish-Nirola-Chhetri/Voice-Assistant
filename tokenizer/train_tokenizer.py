@@ -1,1 +1,0 @@
-# Trains BPE tokenizer on raw data. Run once before training.
