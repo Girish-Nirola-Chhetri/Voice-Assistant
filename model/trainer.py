@@ -1,7 +1,7 @@
 import torch
 
-from embeddings import TokenEmbedding
-from positional_encoding import PositionalEncoding
+from model.embeddings import TokenEmbedding
+from model.positional_encoding import PositionalEncoding
 
 
 embed = TokenEmbedding(

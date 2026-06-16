@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from config import D_MODEL, FF_DIM
+from model.config import D_MODEL, FF_DIM
 
 class FeedForward(nn.Module):
     def __init__(self):

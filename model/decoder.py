@@ -1,17 +1,17 @@
 import torch.nn as nn
 
-from attention import MultiHeadAttention
-from feed_forward import FeedForward
-from config import D_MODEL
+from model.attention import MultiHeadAttention
+from model.feed_forward import FeedForward
+from model.config import D_MODEL, NUM_HEADS
 
 
 class DecoderBlock(nn.Module):
     def __init__(self):
         super().__init__()
 
-        self.masked_attention = MultiHeadAttention()
+        self.masked_attention = MultiHeadAttention(D_MODEL, NUM_HEADS)
 
-        self.cross_attention = MultiHeadAttention()
+        self.cross_attention = MultiHeadAttention(D_MODEL, NUM_HEADS)
 
         self.ffn = FeedForward()
 

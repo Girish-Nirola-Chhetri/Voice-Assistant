@@ -1,16 +1,16 @@
 import torch
 import torch.nn as nn
 
-from attention import MultiHeadAttention
-from feed_forward import FeedForward
-from config import D_MODEL
+from model.attention import MultiHeadAttention
+from model.feed_forward import FeedForward
+from model.config import D_MODEL, NUM_HEADS
 
 
 class Encoder( nn.Module ):
     def __init__(self):
         super().__init__()
 
-        self.attention = MultiHeadAttention()
+        self.attention = MultiHeadAttention(D_MODEL, NUM_HEADS)
         self.ffn = FeedForward()
 
         self.norm1 = nn.LayerNorm( D_MODEL )

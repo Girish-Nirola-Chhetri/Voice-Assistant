@@ -1,7 +1,7 @@
 import torch 
 import torch.nn as nn
 
-from config import VOCAB_SIZE, D_MODEL
+from model.config import VOCAB_SIZE, D_MODEL
 
 class TokenEmbedding( nn.Module ) :
     def __init__(self, VOCAB_SIZE, D_MODEL ):

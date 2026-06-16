@@ -1,16 +1,17 @@
 import torch
 import torch.nn as nn
-from config import D_MODEL, NUM_LAYERS, VOCAB_SIZE
+from model.config import D_MODEL, NUM_LAYERS, VOCAB_SIZE
 
-from embeddings import TokenEmbedding
-from positional_encoding import PositionalEncoder
-from encoder import Encoder
-from decoder import DecoderBlock
+from model.embeddings import TokenEmbedding
+from model.positional_encoding import PositionalEncoder
+from model.encoder import Encoder
+from model.decoder import DecoderBlock
 
 class Transformer( nn.Module ):
     def __init__(self):
-        
-        self.embedding = TokenEmbedding()
+        super().__init__()
+
+        self.embedding = TokenEmbedding(D_MODEL, VOCAB_SIZE)
 
         self.positional_encoding = PositionalEncoder()
 

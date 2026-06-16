@@ -4,6 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 import sentencepiece as spm
 
+from model.mask import create_causal_mask
 from model.transformer import Transformer
 from model.config import (
     LEARNING_RATE,
@@ -69,9 +70,18 @@ for epoch in range(EPOCHS):
         target_input = target[:, :-1]
         target_output = target[:, 1:]
 
+        target_mask = create_causal_mask(
+            target_input.size(1)
+        )
+
+        print("VOCAB_SIZE:", VOCAB_SIZE)
+        print("MAX SOURCE TOKEN:", max(source_ids))
+        print("MAX TARGET TOKEN:", max(target_ids))
+
         output = model(
             source,
-            target_input
+            target_input,
+            target_mask
         )
 
         predictions = torch.argmax(

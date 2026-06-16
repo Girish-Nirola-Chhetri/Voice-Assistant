@@ -2,10 +2,10 @@ import math
 import torch
 import torch.nn as nn
 
-from config import D_MODEL
+from model.config import D_MODEL
 
 
-class PositionalEncoding(nn.Module):
+class PositionalEncoder(nn.Module):
     def __init__(self, d_model=D_MODEL, max_len=5000):
         super().__init__()
 

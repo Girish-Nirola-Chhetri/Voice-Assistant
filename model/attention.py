@@ -1,7 +1,7 @@
 import math
 import torch
 import torch.nn as nn
-from config import NUM_HEADS, D_MODEL
+from model.config import NUM_HEADS, D_MODEL
 
 class MultiHeadAttention( nn.Module ) :
     def __init__( self, D_MODEL, NUM_HEADS ):
