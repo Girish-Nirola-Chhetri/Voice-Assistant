@@ -17,7 +17,7 @@ class MultiHeadAttention( nn.Module ) :
         self.key = nn.Linear( D_MODEL, D_MODEL)
         self.value = nn.Linear( D_MODEL, D_MODEL)
 
-        self.fc_output = nn.Linear( D_MODEL, D_MODEL)               # fullly connected output
+        self.fc_output = nn.Linear( D_MODEL, D_MODEL)               # fully connected output
 
     
     def forward( self, x):
@@ -29,13 +29,13 @@ class MultiHeadAttention( nn.Module ) :
         V = self.value( x )
 
         Q = Q.reshape( batch_size, seq_len, self.num_heads, self.head_dim).transpose(1,2)       # final => batch_size, num_heads, seq_len , head_dim
-        K = K.reshaope( batch_size, seq_len, self.num_heads, self.head_dim).transpose(1,2)
-        V = V.reshaope( batch_size, seq_len, self.num_heads, self.head_dim).transpose(1,2)
+        K = K.reshape( batch_size, seq_len, self.num_heads, self.head_dim).transpose(1,2)
+        V = V.reshape( batch_size, seq_len, self.num_heads, self.head_dim).transpose(1,2)
 
         scores = Q @ K.transpose(-1, -2)
 
-        # sscaling
-        ccores = scores / math.sqrt(K.size(-1))
+        # scaling
+        scores = scores / math.sqrt(K.size(-1))
 
         weights = torch.softmax(
             scores,
