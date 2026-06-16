@@ -26,6 +26,7 @@ class MultiHeadAttention( nn.Module ) :
 
         if value is None:
             value = query
+            
         batch_size = query.size(0)
 
         query_len = query.size(1)
