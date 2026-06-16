@@ -149,7 +149,7 @@ Photography trip at dawn, wake me at 4:20
 {"intent": "set_alarm", "entities": {"time": "04:20"}}
 
 Wake me every working day at 6
-{"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekda,ys"}}
+{"intent": "set_alarm", "entities": {"time": "06:00", "repeat": "weekdays"}}
 
 Set an alarm every Sunday at 8
 {"intent": "set_alarm", "entities": {"time": "08:00", "repeat": "weekly"}}
