@@ -49,10 +49,14 @@ for epoch in range(EPOCHS):
             out_type=int
         )
 
-        target_ids = tokenizer.Encode(
+        target_ids = [
+            tokenizer.bos_id()
+        ] + tokenizer.Encode(
             target_text,
             out_type=int
-        )
+        ) + [
+            tokenizer.eos_id()
+        ]
 
         if len(target_ids) < 2:
             continue
@@ -74,9 +78,6 @@ for epoch in range(EPOCHS):
             target_input.size(1)
         )
 
-        print("VOCAB_SIZE:", VOCAB_SIZE)
-        print("MAX SOURCE TOKEN:", max(source_ids))
-        print("MAX TARGET TOKEN:", max(target_ids))
 
         output = model(
             source,

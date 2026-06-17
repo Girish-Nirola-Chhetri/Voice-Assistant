@@ -6,3 +6,4 @@ env/
 .env
 
 __pycache__
+assistant_model.pt

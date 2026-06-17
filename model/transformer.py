@@ -11,7 +11,8 @@ class Transformer( nn.Module ):
     def __init__(self):
         super().__init__()
 
-        self.embedding = TokenEmbedding(D_MODEL, VOCAB_SIZE)
+        self.embedding = TokenEmbedding( VOCAB_SIZE, D_MODEL)
+       
 
         self.positional_encoding = PositionalEncoder()
 
